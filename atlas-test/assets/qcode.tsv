@@ -1,0 +1,7 @@
+qc_type	sample_name	qcloud_code	description
+QC01	bsa	QC:0000005	BSA cells for QC01
+QC02	hela	QC:0000006	HeLa cells for QC02
+QCD1	bsa	QC:1000005	BSA cells for DIA QC01
+QCD2	bsa	QC:1000006	BSA cells for DIA QC02
+QCB1	bsa	QC:2000005	BSA cells for DIA Brucker QC01
+QCB2	bsa	QC:2000006	BSA cells for DIA Brucker QC02

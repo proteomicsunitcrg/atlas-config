@@ -1,0 +1,8 @@
+instrument	accession	fragment_tolerance
+Q Exactive Plus	MS:1002634	0.02
+Q Exactive HF	MS:1002523	0.02
+Q Exactive	MS:1001911	0.02
+Q Exactive HF-X	MS:1002877	0.02
+Orbitrap Exploris 480	MS:1003028	0.02
+Orbitrap Exploris 240	MS:1003094	0.02
+test	MS:1000483	0.02

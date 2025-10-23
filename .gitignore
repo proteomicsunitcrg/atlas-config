@@ -1,0 +1,15 @@
+# Sensitive configuration
+**/*run_modes.csv
+**/crg_secrets.config
+**/*secrets*.config
+**/*.secrets
+**/*.key
+**/*.pem
+**/*password*
+**/*token*
+**/*key*
+.nextflow*
+work/
+results/
+.DS_Store
+*.log
