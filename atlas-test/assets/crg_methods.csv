@@ -3,8 +3,6 @@ QC01;qcloud;QC01 BSA;;;;;;;;;;;slurm_medium;;wrapped
 QC02;qcloud;QC02 HELA;;;;;;;;;;;slurm_medium;;wrapped
 QCD1;qcloud_diann;QCD1 BSA DIA;;;;;;;;;;;slurm_medium;;wrapped
 QCD2;qcloud_diann;QCD2 HELA DIA;;;;;;;;;;;slurm_medium;;wrapped
-QCB1;qcloud_diann;QCB1 Bruker BSA DIA;;;;;;;;;;;slurm_big;;wrapped
-QCB2;qcloud_diann;QCB2 Bruker HELA DIA;;;;;;;;;;;slurm_big;;wrapped
 MQ;main;Proteome label-free quantification;'Oxidation (M)' 'Acetyl (N-term)';;0.5;Da;7;ppm;3;;;fragpipe;slurm_medium;;wrapped
 LA;main;Characterization of protein-protein interactions (AP-MS) - A. Pilot experiment;'Oxidation (M)' 'Acetyl (N-term)';;0.5;Da;7;ppm;3;;;fragpipe;sge_medium;;direct
 LB;main;Characterization of protein-protein interactions (AP-MS) - B. Measurement;'Oxidation (M)' 'Acetyl (N-term)';;0.5;Da;7;ppm;3;;;fragpipe;sge_medium;;direct
