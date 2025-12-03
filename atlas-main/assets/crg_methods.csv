@@ -21,7 +21,7 @@ LU;main;SILAC: Ultra deep proteome quantification (fractionation);'Oxidation (M)
 MH;main;PTM quantification of histones - A. Pilot experiment;'Oxidation (M)' 'Acetyl (N-term)' 'Phenylisocyanate (N-term)' 'Propionyl (K)' 'Propionyl (Protein N-term)' 'Dimethyl (K)' 'Trimethyl (K)' 'Acetyl (K)' 'Crotonaldehyde (K)';.(Phenylisocyanate),K(Propionyl),.(Propionyl),K(Dimethyl),K(Trimethyl),K(Acetyl),K(Crotonaldehyde);0.02;Da;7;ppm;5;;;mascot;slurm_big;;wrapped
 MZ;main;PTM quantification of histones - B. Measurement;'Oxidation (M)' 'Acetyl (N-term)' 'Phenylisocyanate (N-term)' 'Propionyl (K)' 'Propionyl (Protein N-term)' 'Dimethyl (K)' 'Trimethyl (K)' 'Acetyl (K)' 'Crotonaldehyde (K)';.(Phenylisocyanate),K(Propionyl),.(Propionyl),K(Dimethyl),K(Trimethyl),K(Acetyl),K(Crotonaldehyde);0.02;Da;7;ppm;5;;;mascot;slurm_big;;wrapped
 MW;main;Targeted protein quantification (PRM) - A. Method development;;;;;;;;;;fragpipe;slurm_medium;;wrapped
-MT;main;Targeted protein quantification (PRM) - B. Measurement;'Oxidation (M)' 'Acetyl (N-term)';;0.02;Da;7;ppm;3;;;comet;slurm_small;;wrapped
+MT;main;Targeted protein quantification (PRM) - B. Measurement;;;;;;;;;;fragpipe;slurm_medium;;wrapped
 LT;main;TMT: Proteome quantification;'Oxidation (M)' 'Acetyl (N-term)' 'TMTpro (K)' 'TMTpro (N-term)';K(TMTpro),.(TMTpro);0.5;Da;7;ppm;3;;;comet;slurm_medium;;wrapped
 LF;main;TMT: Ultra deep proteome quantification (fractionation);'Oxidation (M)' 'Acetyl (N-term)' 'TMTpro (K)' 'TMTpro (N-term)';K(TMTpro),.(TMTpro);0.5;Da;7;ppm;3;;;comet;slurm_medium;;wrapped
 MK;diann;Quantification using data independent acquisition (DIA) - Proteome;;;;;;;;/users/pr/proteomics/mygit/atlas-output;;;slurm_medium;;wrapped
