@@ -1,4 +1,3 @@
-pattern;workflow;name;var_modif;sites_modif;fragment_mass_tolerance;fragment_error_units;precursor_mass_tolerance;precursor_error_units;missed_cleavages;output_folder;is_instrument_folder_in_filename;search_engine;nf_profile;sampleqc_api_key;executor
 QC01;qcloud;QC01 BSA;;;;;;;;;;;slurm_medium;;wrapped
 QC02;qcloud;QC02 HELA;;;;;;;;;;;slurm_medium;;wrapped
 QCD1;qcloud_diann;QCD1 BSA DIA;;;;;;;;;;;slurm_medium;;wrapped
@@ -39,3 +38,4 @@ QCFL;sampleqc;Filter-aided digestion (FASP) QC;'Oxidation (M)' 'Acetyl (N-term)'
 QCRL;sampleqc;Offline Fractionation QC;'Oxidation (M)' 'Acetyl (N-term)';;0.5;Da;7;ppm;3;;;comet;slurm_small;5e0f0077-2ae2-4984-88cd-20bcd62067ff;wrapped
 QCPL;sampleqc;Phosphoenrichment QC;'Oxidation (M)' 'Acetyl (N-term)' 'Phospho (S)' 'Phospho (T)' 'Phospho (Y)';S(Phospho),T(Phospho),Y(Phospho);0.5;Da;7;ppm;3;;;comet;slurm_big;0237d9fe-9013-4746-a2d7-6e5fcf007a18;wrapped
 QCSL;sampleqc;Filter-aided digestion (FASP) QC;'Oxidation (M)' 'Acetyl (N-term)';;0.5;Da;7;ppm;3;;;comet;slurm_small;0c5165d8-05eb-47e0-86e4-22a77beb86ab;wrapped
+BSA;main;BSA Test;'Oxidation (M)' 'Acetyl (N-term)';;0.5;Da;7;ppm;3;;;comet;small;;wrapped
