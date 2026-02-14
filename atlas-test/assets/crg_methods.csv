@@ -32,7 +32,7 @@ MK;diann;Quantification using data independent acquisition (DIA) - Proteome;;;;;
 NK;diann;Proteome label-free quantification (DIA);;;;;;;;/users/pr/proteomics/mygit/atlas-output;;;slurm_medium;;wrapped
 NY;diann;Phosphoproteome label-free quantification (DIA);;;;;;;;/users/pr/proteomics/mygit/atlas-output;;;slurm_medium;;wrapped
 BK;diann_bruker;Quantification using data independent acquisition (DIA) - Bruker - Proteome;;;;;;;;/users/pr/proteomics/mygit/atlas-output;;;slurm_medium;;wrapped
-QCHL;sampleqc;Histones QC;'Oxidation (M)' 'Acetyl (N-term)' 'Phenylisocyanate (N-term)' 'Propionyl (K)' 'Propionyl (Protein N-term)' 'Dimethyl (K)' 'Trimethyl (K)' 'Acetyl (K)' 'Crotonaldehyde (K)';.(Phenylisocyanate),K(Propionyl),.(Propionyl),K(Dimethyl),K(Trimethyl),K(Acetyl),K(Crotonaldehyde);0.5;Da;10;ppm;5;/users/pr/qsample/qchl-output;;mascot;slurm_big;fc639add-dd20-451b-abac-af58234d98aa;wrapped
+QCHL;sampleqc;Histones QC;'Oxidation (M)' 'Acetyl (N-term)' 'Phenylisocyanate (N-term)' 'Propionyl (K)' 'Propionyl (Protein N-term)' 'Dimethyl (K)' 'Trimethyl (K)' 'Acetyl (K)' 'Crotonaldehyde (K)';.(Phenylisocyanate),K(Propionyl),.(Propionyl),K(Dimethyl),K(Trimethyl),K(Acetyl),K(Crotonaldehyde);0.02;Da;7;ppm;5;/users/pr/qsample/qchl-output;;mascot;slurm_big;fc639add-dd20-451b-abac-af58234d98aa;wrapped
 QCGL;sampleqc;In-gel QC;'Oxidation (M)' 'Acetyl (N-term)';;0.5;Da;7;ppm;3;;;comet;slurm_medium;d7bca60f-a79e-4cb9-9333-9227410629bf;wrapped
 QCDL;sampleqc;In-solution digestion QC;'Oxidation (M)' 'Acetyl (N-term)';;0.5;Da;7;ppm;3;;;comet;slurm_small;5008da3a-dbcd-49c3-a008-db34c4b0bb39;wrapped
 QCFL;sampleqc;Filter-aided digestion (FASP) QC;'Oxidation (M)' 'Acetyl (N-term)';;0.5;Da;7;ppm;3;;;comet;slurm_small;0c5165d8-05eb-47e0-86e4-22a77beb86ab;wrapped
