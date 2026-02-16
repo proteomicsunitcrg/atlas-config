@@ -1,3 +1,0 @@
-mode;incoming_folder;main_nf_folder;runs_folder;logs_folder;notification_email;enable_notification_email;enable_notification_slack;slack_url_hook;mtime;num_max_proc
-prod;/path/to/atlas-incoming;/path/to/atlas;/path/to/atlas-runs;/path/to/atlas-logs;your.email@example.com;false;false;https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK;-7;20
-test;/path/to/atlas-incoming-test;/path/to/atlas-test;/path/to/atlas-runs;/path/to/atlas-test-logs;your.email@example.com;false;false;https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK;-7;20
