@@ -1,0 +1,44 @@
+# DIA-NN Methods Configuration
+# Maps workflow patterns to their specific DIA-NN versions, containers, and parsers
+
+QCD1:
+  diann_version: "1.9.2"
+  container: "proteomicsunitcrg/diann:1.9.2"
+  config_file: "diann_configs/diann_qcd1.cfg"
+  parser_version: "tsv"
+  description: "BSA DIA quality control"
+
+QCD2:
+  diann_version: "1.9.2"
+  container: "proteomicsunitcrg/diann:1.9.2"
+  config_file: "diann_configs/diann_qcd2.cfg"
+  parser_version: "tsv"
+  description: "HELA DIA quality control"
+
+NK:
+  diann_version: "2.2.0"
+  container: "proteomicsunitcrg/diann:2.2.0"
+  config_file: "diann_configs/diann_nk.cfg"
+  parser_version: "parquet"
+  description: "Proteome DIA quantification"
+
+MK:
+  diann_version: "2.3.2"
+  container: "proteomicsunitcrg/diann:2.3.2"
+  config_file: "diann_configs/diann_mk.cfg"
+  parser_version: "parquet"
+  description: "Proteome DIA quantification (latest)"
+
+NY:
+  diann_version: "2.2.0"
+  container: "proteomicsunitcrg/diann:2.2.0"
+  config_file: "diann_configs/diann_ny.cfg"
+  parser_version: "parquet"
+  description: "Proteome DIA quantification (Thermo)"
+
+BK:
+  diann_version: "2.3.2"
+  container: "proteomicsunitcrg/diann:2.3.2"
+  config_file: "diann_configs/diann_bk.cfg"
+  parser_version: "parquet"
+  description: "Proteome DIA quantification (Bruker)"
