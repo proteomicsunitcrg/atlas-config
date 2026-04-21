@@ -5,6 +5,7 @@ QCD1:
   parser_version: "tsv"
   executable: "/diann-1.9.2/diann-linux"
   description: "BSA DIA quality control"
+  requiresConversion: false                                            
 
 QCD2:
   diann_version: "1.9.2"
@@ -13,6 +14,7 @@ QCD2:
   parser_version: "tsv"
   executable: "/diann-1.9.2/diann-linux"
   description: "HELA DIA quality control"
+  requiresConversion: false                                            
 
 NK:
   diann_version: "2.2.0"
@@ -21,6 +23,7 @@ NK:
   parser_version: "parquet"
   executable: "/diann-2.2.0/diann-linux"
   description: "Proteome DIA quantification"
+  requiresConversion: false                                            
 
 MK:
   diann_version: "2.3.2"
@@ -29,6 +32,7 @@ MK:
   parser_version: "parquet"
   executable: "/opt/diann/diann-2.3.2/diann-linux"
   description: "Proteome DIA quantification (latest)"
+  requiresConversion: false                                            
 
 NY:
   diann_version: "2.2.0"
@@ -37,6 +41,7 @@ NY:
   parser_version: "parquet"
   executable: "/diann-2.2.0/diann-linux"
   description: "Proteome DIA quantification (Thermo)"
+  requiresConversion: false                                          
 
 BK:
   diann_version: "2.3.2"
@@ -45,3 +50,4 @@ BK:
   parser_version: "parquet"
   executable: "/opt/diann/diann-2.3.2/diann-linux"
   description: "Proteome DIA quantification (Bruker)"
+  requiresConversion: false                                           
