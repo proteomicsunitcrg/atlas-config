@@ -1,12 +1,12 @@
 QCD1:
-  diann_version: "1.9.2"
-  container: "/users/pr/proteomics/mygit/atlas-imgs/diann-1.9.2.img"  
-  config_file: "diann_configs/diann_qcd1.cfg"
-  parser_version: "tsv"
-  executable: "/diann-1.9.2/diann-linux"
-  description: "BSA DIA quality control"
-  requiresConversion: true                                            
-
+  diann_version: "2.3.2"
+  container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.3.2.img"  
+  config_file: "diann_configs/diann_mk.cfg"
+  parser_version: "parquet"
+  executable: "/opt/diann/diann-2.3.2/diann-linux"
+  description: "Proteome DIA quantification (latest)"
+  requiresConversion: false  
+  
 QCD2:
   diann_version: "1.9.2"
   container: "/users/pr/proteomics/mygit/atlas-imgs/diann-1.9.2.img"  
@@ -17,13 +17,13 @@ QCD2:
   requiresConversion: true                                            
 
 NK:
-  diann_version: "2.2.0"
-  container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.2.0.img"  
-  config_file: "diann_configs/diann_nk.cfg"
+  diann_version: "2.3.2"
+  container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.3.2.img"  
+  config_file: "diann_configs/diann_mk.cfg"
   parser_version: "parquet"
-  executable: "/diann-2.2.0/diann-linux"
-  description: "Proteome DIA quantification"
-  requiresConversion: false                                            
+  executable: "/opt/diann/diann-2.3.2/diann-linux"
+  description: "Proteome DIA quantification (latest)"
+  requiresConversion: false                                        
 
 MK:
   diann_version: "2.3.2"
@@ -32,7 +32,7 @@ MK:
   parser_version: "parquet"
   executable: "/opt/diann/diann-2.3.2/diann-linux"
   description: "Proteome DIA quantification (latest)"
-  requiresConversion: false                                            
+  requiresConversion: false                                       
 
 NY:
   diann_version: "2.2.0"
