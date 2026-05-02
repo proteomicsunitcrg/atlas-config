@@ -5,7 +5,7 @@ QCD1:
   parser_version: "parquet"
   executable: "/opt/diann/diann-2.3.2/diann-linux"
   description: "Proteome DIA quantification (latest)"
-  requiresConversion: false  
+  requiresConversion: true  
   
 QCD2:
   diann_version: "1.9.2"
@@ -23,7 +23,7 @@ NK:
   parser_version: "parquet"
   executable: "/opt/diann/diann-2.3.2/diann-linux"
   description: "Proteome DIA quantification (latest)"
-  requiresConversion: false                                        
+  requiresConversion: true                                        
 
 MK:
   diann_version: "2.3.2"
@@ -32,7 +32,7 @@ MK:
   parser_version: "parquet"
   executable: "/opt/diann/diann-2.3.2/diann-linux"
   description: "Proteome DIA quantification (latest)"
-  requiresConversion: false                                       
+  requiresConversion: true                                       
 
 NY:
   diann_version: "2.2.0"
@@ -41,7 +41,7 @@ NY:
   parser_version: "parquet"
   executable: "/diann-2.2.0/diann-linux"
   description: "Proteome DIA quantification (Thermo)"
-  requiresConversion: false                                          
+  requiresConversion: true                                          
 
 BK:
   diann_version: "2.3.2"
@@ -50,4 +50,4 @@ BK:
   parser_version: "parquet"
   executable: "/opt/diann/diann-2.3.2/diann-linux"
   description: "Proteome DIA quantification (Bruker)"
-  requiresConversion: false                                           
+  requiresConversion: true                                            
