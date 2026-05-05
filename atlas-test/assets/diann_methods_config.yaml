@@ -5,8 +5,8 @@ QCD1:
   parser_version: "tsv"
   executable: "/diann-1.9.2/diann-linux"
   description: "BSA DIA quality control"
-  requiresConversion: true                                            
-
+  requiresConversion: true
+  
 QCD2:
   diann_version: "1.9.2"
   container: "/users/pr/proteomics/mygit/atlas-imgs/diann-1.9.2.img"  
@@ -17,32 +17,14 @@ QCD2:
   requiresConversion: true                                            
 
 NK:
-  diann_version: "2.2.0"
-  container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.2.0.img"  
-  config_file: "diann_configs/diann_nk.cfg"
-  parser_version: "parquet"
-  executable: "/diann-2.2.0/diann-linux"
-  description: "Proteome DIA quantification"
-  requiresConversion: false                                            
-
-MK:
   diann_version: "2.3.2"
   container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.3.2.img"  
-  config_file: "diann_configs/diann_mk.cfg"
+  config_file: "diann_configs/diann_nk.cfg"
   parser_version: "parquet"
   executable: "/opt/diann/diann-2.3.2/diann-linux"
   description: "Proteome DIA quantification (latest)"
-  requiresConversion: false                                            
-
-NY:
-  diann_version: "2.2.0"
-  container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.2.0.img"  
-  config_file: "diann_configs/diann_ny.cfg"
-  parser_version: "parquet"
-  executable: "/diann-2.2.0/diann-linux"
-  description: "Proteome DIA quantification (Thermo)"
-  requiresConversion: false                                          
-
+  requiresConversion: true                                        
+                                                                      
 BK:
   diann_version: "2.3.2"
   container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.3.2.img" 
@@ -50,4 +32,4 @@ BK:
   parser_version: "parquet"
   executable: "/opt/diann/diann-2.3.2/diann-linux"
   description: "Proteome DIA quantification (Bruker)"
-  requiresConversion: false                                           
+  requiresConversion: true                                            
