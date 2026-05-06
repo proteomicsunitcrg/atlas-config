@@ -22,9 +22,54 @@ NK:
   config_file: "diann_configs/diann_nk.cfg"
   parser_version: "parquet"
   executable: "/opt/diann/diann-2.3.2/diann-linux"
-  description: "Proteome DIA quantification (latest)"
-  requiresConversion: true                                        
-                                                                      
+  description: "Proteome DIA quantification (current)"
+  requiresConversion: false
+
+MK:
+  diann_version: "2.3.2"
+  container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.3.2.img"  
+  config_file: "diann_configs/diann_nk.cfg"
+  parser_version: "parquet"
+  executable: "/opt/diann/diann-2.3.2/diann-linux"
+  description: "Proteome DIA quantification (old)"
+  requiresConversion: false                                           
+
+LD:
+  diann_version: "2.3.2"
+  container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.3.2.img"  
+  config_file: "diann_configs/diann_nk.cfg"
+  parser_version: "parquet"
+  executable: "/opt/diann/diann-2.3.2/diann-linux"
+  description: "Chromatin-bound proteome"
+  requiresConversion: false   
+
+ME:
+  diann_version: "2.3.2"
+  container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.3.2.img"  
+  config_file: "diann_configs/diann_nk.cfg"
+  parser_version: "parquet"
+  executable: "/opt/diann/diann-2.3.2/diann-linux"
+  description: "Proteome label-free quantification in exosomes (DIA) - Proteome"
+  requiresConversion: false   
+
+MS:
+  diann_version: "2.3.2"
+  container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.3.2.img"  
+  config_file: "diann_configs/diann_nk.cfg"
+  parser_version: "parquet"
+  executable: "/opt/diann/diann-2.3.2/diann-linux"
+  description: "Proteome label-free quantification in secretome (DIA)"
+  requiresConversion: false  
+
+NY:
+  diann_version: "2.3.2"
+  container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.3.2.img"  
+  config_file: "diann_configs/diann_nk.cfg"
+  parser_version: "parquet"
+  executable: "/opt/diann/diann-2.3.2/diann-linux"
+  description: "Phosphoproteome label-free quantification (DIA)"
+  requiresConversion: false  
+
 BK:
   diann_version: "2.3.2"
   container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.3.2.img" 
@@ -32,4 +77,4 @@ BK:
   parser_version: "parquet"
   executable: "/opt/diann/diann-2.3.2/diann-linux"
   description: "Proteome DIA quantification (Bruker)"
-  requiresConversion: true                                            
+  requiresConversion: false                                            
