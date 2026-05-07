@@ -28,7 +28,7 @@ NK:
 MK:
   diann_version: "2.3.2"
   container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.3.2.img"  
-  config_file: "diann_configs/diann_nk.cfg"
+  config_file: "diann_configs/diann_mk.cfg"
   parser_version: "parquet"
   executable: "/opt/diann/diann-2.3.2/diann-linux"
   description: "Proteome DIA quantification (old)"
@@ -37,7 +37,7 @@ MK:
 LD:
   diann_version: "2.3.2"
   container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.3.2.img"  
-  config_file: "diann_configs/diann_nk.cfg"
+  config_file: "diann_configs/diann_ld.cfg"
   parser_version: "parquet"
   executable: "/opt/diann/diann-2.3.2/diann-linux"
   description: "Chromatin-bound proteome"
@@ -46,7 +46,7 @@ LD:
 ME:
   diann_version: "2.3.2"
   container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.3.2.img"  
-  config_file: "diann_configs/diann_nk.cfg"
+  config_file: "diann_configs/diann_me.cfg"
   parser_version: "parquet"
   executable: "/opt/diann/diann-2.3.2/diann-linux"
   description: "Proteome label-free quantification in exosomes (DIA) - Proteome"
@@ -55,7 +55,7 @@ ME:
 MS:
   diann_version: "2.3.2"
   container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.3.2.img"  
-  config_file: "diann_configs/diann_nk.cfg"
+  config_file: "diann_configs/diann_ms.cfg"
   parser_version: "parquet"
   executable: "/opt/diann/diann-2.3.2/diann-linux"
   description: "Proteome label-free quantification in secretome (DIA)"
@@ -64,7 +64,7 @@ MS:
 NY:
   diann_version: "2.3.2"
   container: "/users/pr/proteomics/mygit/atlas-imgs/diann-2.3.2.img"  
-  config_file: "diann_configs/diann_nk.cfg"
+  config_file: "diann_configs/diann_ny.cfg"
   parser_version: "parquet"
   executable: "/opt/diann/diann-2.3.2/diann-linux"
   description: "Phosphoproteome label-free quantification (DIA)"
