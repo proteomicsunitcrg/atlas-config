@@ -15,7 +15,7 @@ MS;diann;Proteome label-free quantification in secretome (DIA);;;;;;;;/users/pr/
 MM;main;Proteome label-free quantification in mycoplasma;;;;;;;;;;fragpipe;slurm_medium;;wrapped
 LZ;main;User tailored request (Proteomics);;;;;;;;;;fragpipe;slurm_medium;;wrapped
 ZZ;main;Internal Test;'Oxidation (M)' 'Acetyl (N-term)';;0.5;Da;7;ppm;3;;;comet;small;;wrapped
-MP;main;Phosphoproteome label-free quantification;'Oxidation (M)' 'Acetyl (N-term)' 'Phospho (S)' 'Phospho (T)' 'Phospho (Y)';S(Phospho),T(Phospho),Y(Phospho);0.5;Da;7;ppm;3;;;comet;slurm_big;;wrapped
+NP;main;Phosphoproteome label-free quantification;'Oxidation (M)' 'Acetyl (N-term)' 'Phospho (S)' 'Phospho (T)' 'Phospho (Y)';S(Phospho),T(Phospho),Y(Phospho);0.5;Da;7;ppm;3;;;comet;slurm_big;;wrapped
 MA;main;PTM (acetyl, methyl, phospho, ubiquitin) quantification of a purified protein - A. Pilot experiment;'Oxidation (M)' 'Acetyl (N-term)' 'Phospho (S)' 'Phospho (T)' 'Phospho (Y)';S(Phospho),T(Phospho),Y(Phospho);0.5;Da;7;ppm;3;;;comet;slurm_big;;wrapped
 MB;main;PTM (acetyl, methyl, phospho, ubiquitin) quantification of a purified protein - B. Measurement;'Oxidation (M)' 'Acetyl (N-term)' 'Phospho (S)' 'Phospho (T)' 'Phospho (Y)';S(Phospho),T(Phospho),Y(Phospho);0.5;Da;7;ppm;3;;;comet;slurm_big;;wrapped
 LC;main;SILAC: Checking incorporation;'Oxidation (M)' 'Acetyl (N-term)' 'Label:13C(6)15N(4) (R)' 'Label:13C(6)15N(2) (K)';R(Label:13C(6)15N(4)),K(Label:13C(6)15N(2));0.5;Da;7;ppm;3;;;comet;slurm_medium;;wrapped
