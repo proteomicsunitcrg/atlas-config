@@ -1,0 +1,5 @@
+metric_type	unimod	residue	openms_ptm_notation
+site_count	UniMod:21	S	S(Phospho)
+site_count	UniMod:21	T	T(Phospho)
+site_count	UniMod:21	Y	Y(Phospho)
+modified_peptidoforms	UniMod:21	NA	Phospho
