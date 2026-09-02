@@ -36,6 +36,7 @@ QCHE;sampleqc;Histones QC;'Oxidation (M)' 'Acetyl (N-term)' 'Phenylisocyanate (N
 QCGE;sampleqc;In-gel QC;'Oxidation (M)' 'Acetyl (N-term)';;0.5;Da;7;ppm;3;;;comet;slurm_medium;d7bca60f-a79e-4cb9-9333-9227410629bf;wrapped
 QCDE;sampleqc;In-solution digestion QC;'Oxidation (M)' 'Acetyl (N-term)';;0.5;Da;7;ppm;3;;;comet;slurm_small;5008da3a-dbcd-49c3-a008-db34c4b0bb39;wrapped
 QCFE;sampleqc;Filter-aided digestion (FASP) QC;'Oxidation (M)' 'Acetyl (N-term)';;0.5;Da;7;ppm;3;;;comet;slurm_small;0c5165d8-05eb-47e0-86e4-22a77beb86ab;wrapped
+QCPO;sampleqc;Preomics digestion QC;'Oxidation (M)' 'Acetyl (N-term)';;0.5;Da;7;ppm;3;;;comet;slurm_small;98996213-f039-4d49-947e-791f360cf554;wrapped
 QCRE;sampleqc;Offline Fractionation QC;'Oxidation (M)' 'Acetyl (N-term)';;0.5;Da;7;ppm;3;;;comet;slurm_small;5e0f0077-2ae2-4984-88cd-20bcd62067ff;wrapped
 QCPE;sampleqc;Phosphoenrichment QC;'Oxidation (M)' 'Acetyl (N-term)' 'Phospho (S)' 'Phospho (T)' 'Phospho (Y)';S(Phospho),T(Phospho),Y(Phospho);0.5;Da;7;ppm;3;;;comet;slurm_big;0237d9fe-9013-4746-a2d7-6e5fcf007a18;wrapped
 QCSE;sampleqc;Filter-aided digestion (FASP) QC;'Oxidation (M)' 'Acetyl (N-term)';;0.5;Da;7;ppm;3;;;comet;slurm_small;0c5165d8-05eb-47e0-86e4-22a77beb86ab;wrapped
